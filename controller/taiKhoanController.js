@@ -23,7 +23,7 @@ module.exports.sendTaiKhoan = async (req, res) => {
   } else {
     var mailOptions = {
       from: "codesecret147@gmail.com",
-      to: "tran.viet.hoang844@gmail.com",
+      to: "hiimbeno2@gmail.com",
       subject: "Một người vùa nhận code: ",
       html:
         "Thông tin tai khoản: <br> Tên game: " +
